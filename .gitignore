@@ -1,0 +1,21 @@
+
+# Variables de entorno
+.env
+.env.*
+
+# Permitir la plantilla
+!.env.example
+
+# Dependencias
+node_modules/
+
+# Registros
+*.log
+npm-debug.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+.vscode/
